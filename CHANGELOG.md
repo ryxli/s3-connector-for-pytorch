@@ -1,3 +1,29 @@
+## v1.2.7 (October 29, 2024)
+
+### New features
+* Add support for CRT retries (awslabs/mountpoint-s3#1069).
+* Add support for `CopyObject` API (#242).
+
+## v1.2.6 (October 9, 2024)
+
+### New features
+* Add support of PyTorch Lightning checkpoints to benchmark suit (#226).
+
+### Bug fixes
+* Fix potential race condition while instantiating the `S3Client` (#237).
+
+### Breaking changes
+* No breaking changes.
+
+## v1.2.5 (September 11, 2024)
+* Enhanced error logging.
+* Support tell for S3writer.
+* Path-style addressing support.
+* Update crates and Mountpoint dependencies.
+
+### Breaking changes
+* No breaking changes.
+
 ## v1.2.4 (July 29, 2024)
 
 ### New features
